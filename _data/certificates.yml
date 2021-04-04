@@ -1,0 +1,388 @@
+- name: Parallel Programming in Java
+  descriptions:
+  expiry: No
+  course:
+    url: https://www.coursera.org/learn/parallel-programming-in-java
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://vsarkar.rice.edu/" target="_blank">Prof. VivekSarkar</a>, <a href="https://cs.rice.edu" target="_blank">Department of Computer Science</a>
+  grade: 98.50/100
+  startDate:
+    year: 2020
+    month: June
+    day: 19
+  endDate:
+    year: 2020
+    month: August
+    day: 9
+  issueDate:
+    year: 2020
+    month: August
+    day: 9
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: WJDYNKETSH2B
+    url: https://www.coursera.org/account/accomplishments/certificate/WJDYNKETSH2B
+  tags:
+    - Dataflow
+    - Parallel Computing
+    - Java Concurrency
+    - Data Parallelism
+    - Parallelism
+    - Determinism
+    - Data race
+
+- name: Achieving Advanced Insights with BigQuery
+  descriptions:
+  expiry: No
+  course:
+    url: https://www.coursera.org/learn/gcp-advanced-insights-bigquery
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://cloud.google.com" target="_blank">Google Cloud</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://cloud.google.com/training" target="_blank">Google Cloud Training</a>
+  grade:
+  startDate:
+    year: 2020
+    month: June
+    day: 21
+  endDate:
+    year: 2020
+    month: July
+    day: 13
+  issueDate:
+    year: 2020
+    month: July
+    day: 13
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: MNA73K7WK6C7
+    url: https://www.coursera.org/account/accomplishments/certificate/R8YEMKM5YBZG
+  tags:
+    - BigQuery
+    - Google Cloud Platform
+    - Cloud Computing
+    - SQL
+
+- name: Software Processes and Agile Practices
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/software-processes-and-agile-practices
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://www.ualberta.ca/index.html" target="_blank">University of Alberta</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://webapps.cs.ualberta.ca/profile/" target="_blank">Kenny Wong, Associate Professor, University of Alberta</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 17
+  endDate:
+    year: 2020
+    month: July
+    day: 7
+  issueDate:
+    year: 2020
+    month: July
+    day: 7
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: M2WYLQWRCFGS
+    url: https://www.coursera.org/account/accomplishments/certificate/M2WYLQWRCFGS
+  tags:
+    - Lean Software Development
+    - Agile Software Development
+    - Software Development Process
+    - Scrum (Software Development)
+
+- name: Advanced Relational Database and SQL
+  descriptions:
+  course:
+    url: https://www.coursera.org/projects/advanced-rdb-sql
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: Coursera Project Network, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://www.skyroute66.com/" target="_blank">Harrison Kong, Subject Matter Expert/Instructor</a>
+  grade:
+  startDate:
+    year: 2020
+    month: July
+    day: 1
+  endDate:
+    year: 2020
+    month: July
+    day: 2
+  issueDate:
+    year: 2020
+    month: July
+    day: 2
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: BT4UCJH5FUVM
+    url: https://www.coursera.org/account/accomplishments/certificate/BT4UCJH5FUVM
+  tags:
+
+- name: "Google Cloud Platform Fundamentals: Core Infrastructure"
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/gcp-fundamental
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://cloud.google.com" target="_blank">Google Cloud</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://cloud.google.com/training" target="_blank">Google Cloud Training</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 17
+  endDate:
+    year: 2020
+    month: June
+    day: 30
+  issueDate:
+    year: 2020
+    month: June
+    day: 30
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: LTJWKHVRW4PD
+    url: https://www.coursera.org/account/accomplishments/certificate/LTJWKHVRW4PD
+  tags:
+    - Google Compute Engine
+    - Google App Engine (GAE)
+    - Google Cloud Platform
+    - Cloud Computing
+
+- name: "Agile with Atlassian Jira"
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/agile-atlassian-jira
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://www.atlassian.com" target="_blank">Atlassian</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://www.coursera.org/instructor/stevebyrnes" target="_blank">Steve Byrnes, Instructional Designer</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 17
+  endDate:
+    year: 2020
+    month: June
+    day: 19
+  issueDate:
+    year: 2020
+    month: June
+    day: 19
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: D2SWXV35E6ET
+    url: https://www.coursera.org/account/accomplishments/certificate/D2SWXV35E6ET
+  tags:
+
+- name: "RESTful API with HTTP and JavaScript"
+  descriptions:
+  course:
+    url: https://www.coursera.org/projects/restful-api-http-javascript
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: Coursera Project Network, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://www.skyroute66.com/" target="_blank">Harrison Kong, Subject Matter Expert/Instructor</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 11
+  endDate:
+    year: 2020
+    month: June
+    day: 19
+  issueDate:
+    year: 2020
+    month: June
+    day: 19
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: HKCBTU2S493R
+    url: https://www.coursera.org/account/accomplishments/certificate/HKCBTU2S493R
+  tags:
+    - Representational State Transfer (REST)
+    - JavaScript
+
+
+- name: "Getting Started with Google Kubernetes Engine"
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/google-kubernetes-engine
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://cloud.google.com" target="_blank">Google Cloud</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://cloud.google.com/training" target="_blank">Google Cloud Training</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 17
+  endDate:
+    year: 2020
+    month: June
+    day: 21
+  issueDate:
+    year: 2020
+    month: June
+    day: 21
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: ZZ3PRP9HWX9Q
+    url: https://www.coursera.org/account/accomplishments/certificate/ZZ3PRP9HWX9Q
+  tags:
+    - Continuous Delivery
+    - Kubernetes
+    - Google Cloud Platform
+    - Jenkins (Software)
+
+- name: "Building Scalable Java Microservices with Spring Boot and Spring Cloud"
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/google-cloud-java-spring
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://cloud.google.com" target="_blank">Google Cloud</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://cloud.google.com/training" target="_blank">Google Cloud Training</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 11
+  endDate:
+    year: 2020
+    month: June
+    day: 31
+  issueDate:
+    year: 2020
+    month: June
+    day: 31
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: P2HZQX3QLYDT
+    url: https://www.coursera.org/account/accomplishments/certificate/P2HZQX3QLYDT
+  tags:
+    - Qwiklabs
+    - Runtime configurations 
+    - Cloud SQL
+    - Cloud Spanner
+    - Stackdriver
+    - Cloud Pub/Sub
+    - Cloud APIs
+    - App Engine
+    - Prometheus
+    - Kubernetes Engine
+
+- name: "Version Control with Git"
+  descriptions:
+  course:
+    url: https://www.coursera.org/learn/version-control-with-git
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy: <a href="https://www.atlassian.com" target="_blank">Atlassian</a>, verified by <a href="https://www.coursera.org" target="_blank">Coursera</a>
+  instructor: <a href="https://www.coursera.org/instructor/stevebyrnes" target="_blank">Steve Byrnes, Instructional Designer</a>
+  grade:
+  startDate:
+    year: 2020
+    month: May
+    day: 17
+  endDate:
+    year: 2020
+    month: June
+    day: 17
+  issueDate:
+    year: 2020
+    month: June
+    day: 17
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+    id: BKZQRUXSGYX3
+    url: https://www.coursera.org/account/accomplishments/certificate/BKZQRUXSGYX3
+  tags:
+    - Version Control
+    - Bitbucket
+    - Command-Line Interface
+
+- name: "Southeast Asia Machine Learning School"
+  descriptions:
+  course:
+    url: https://www.sea-mls.com/home
+  issuer: 
+    logoURL: /assets/img/icons/coursera.jpeg
+    logoAlt: Coursera Logo
+  offeredBy:
+  instructor: <a href="https://www.sea-mls.com/speakers" target="_blank">top-tier international machine learning experts</a>
+  grade:
+  startDate:
+    year: 2020
+    month: July
+    day: 8
+  endDate:
+    year: 2020
+    month: July
+    day: 12
+  issueDate:
+    year: 2020
+    month: July
+    day: 12
+  expiry: No
+  expirationDate:
+    year:
+    month:
+    day:
+  credential:
+  tags:
