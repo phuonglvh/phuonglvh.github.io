@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phuonglvh/phuonglvh.github.io.git"
+    "url": "git+https://github.com/phuonglvh/profile.git"
   },
   "keywords": [
     "jekyll"
   ],
-  "author": "phuonglvh",
+  "author": "Tyler Butler",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/phuonglvh/profile/issues"
