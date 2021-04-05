@@ -4,7 +4,7 @@ permalink: /about.html
 title: About Me
 description: Get to know what I'm up too
 header-img: 
-last-updated: 2021-04-01 09:44 PM
+last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
 ---
 
 <h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
