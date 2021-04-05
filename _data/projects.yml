@@ -1,0 +1,37 @@
+- name: Go Multi-room Chat
+  id: go-multi-rom-chat
+  description:
+  startDate:
+    year: 2020
+    month:
+    day:
+    simple:
+  endDate:
+    year: 2020
+    month:
+    day:
+    simple: 2020
+  company:
+    name: Self-employed
+    url: https://phuonglvh.github.io
+  location: Ho Chi Minh City
+  project: Chat Application provides users with ability to join an existing room or anther new room via QR Code
+  roles: 
+    - Primary contributor in the Real-time Multi-room Chat Application written in Go
+  contributions:
+    - Design, and implement back-end’s logic like generating a unique QR code for each room, managing rooms
+  results:
+    - First version Go-First-Pet supports real-time updated messages, multi-rooms, QR code containerized by Docker was published on my public Github repo
+    - An docker image has been published to DockerHub and gained more than 40 pulls from the community.
+  link: https://github.com/phuonglvh/golang-first-pet
+  image:
+    url: /assets/img/projects/go-multi-room-chat.png
+    alt: Project go-multi-room-chat preview
+  techs: 
+    - Go
+    - MVC
+    - Websocket
+    - Docker
+  refs:
+    - url: https://hub.docker.com/repository/docker/phuonglvh/go-multi-room-chat
+      title: DockerHub

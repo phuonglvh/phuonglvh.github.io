@@ -1,0 +1,20 @@
+nav_list_title: Navigation List
+links:
+
+- title: About
+  url: about.html
+
+- title: Publications
+  url: publications.html
+
+# - title: Blog
+#   url: blog.html
+
+- title: Certificates
+  url: certificates.html
+
+- title: Vitae
+  url: /assets/pdf/CV_PhuongLeVanHoang.pdf
+
+- title: Contact
+  url: contact.html

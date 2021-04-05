@@ -1,0 +1,75 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="tab-pane overflow-auto" id="{{ section.id }}" role="tabpanel" aria-labelledby="{{ section.id }}-tab">
+  {% if section.description %}
+  <p><i>{{section.description}}</i></p>
+  {% endif %}
+  <div class="list-group">
+    {% for exp in site.data.experiences %}
+    <div class="list-group-item list-group-item-action">
+      <div class="media mt-2" id="experience-{{exp.id}}">
+        <a href="{{ exp.link }}" target="_blank" title="Credential URL">
+          <img src="{{ exp.image.url }}" class="mr-3 mb-2 img-thumbnail border-0" alt="{{ exp.image.alt }}"
+            title="{{ exp.image.alt }}">
+        </a>
+        <div class="media-body">
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mt-0">
+                <a class="highlighted" href="javascript:void(0)">{{ exp.name }}</a>, <a href="{{ exp.company.url }}"
+                  target="_blank">{{ exp.company.name }}</a>,
+                {{ exp.location }}
+              </h5>
+            </div>
+            <div class="col-4 text-right">
+              <span>{{ exp.startDate.month }} {{ exp.startDate.year }} -
+                {{ exp.endDate.month }} {{ exp.endDate.year }}</span>
+            </div>
+          </div>
+          {% if exp.project %}
+          <div>
+            <b><em>Project:</em></b> {{exp.project}}
+          </div>
+          {% endif %}
+          {% if exp.roles %}
+          <div>
+            <b><em>Roles:</em></b>
+            <ul>
+              {% for role in exp.roles %}
+              <li>{{ role }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if exp.contributions %}
+          <div>
+            <b><em>Contributions:</em></b>
+            <ul>
+              {% for contribution in exp.contributions %}
+              <li>{{ contribution }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if exp.results %}
+          <div>
+            <b><em>Results:</em></b>
+            <ul>
+              {% for result in exp.results %}
+              <li>{{ result }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if exp.techs %}
+          {% for tech in exp.techs %}
+          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech
+            }}</span>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

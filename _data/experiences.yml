@@ -1,0 +1,189 @@
+- name: Software Engineer (Contractor)
+  id: tma
+  description:
+  startDate:
+    year: 2018
+    month: Jan.
+    day:
+    simple: Jan. 2018
+  endDate:
+    year: 2018
+    month: Mar.
+    day:
+    simple: Mar. 2018
+  company:
+    name: TMA Solutions
+    url: https://www.tmasolutions.com
+  location: Ho Chi Minh City
+  project: BlueCat Networks - a desktop app for DNS/DHCP management, allocating IPs
+  roles: 
+    - Member of a 6-member team 
+  contributions:
+    - Maintain existing features
+    - Develop new features for BlueCat DNS/DHCP Server
+  results:
+    - The contributed was recognized and delivered to the customer
+  link:
+  image:
+    url:
+    alt:
+  techs: 
+    - Java
+    - Swing
+    - Eclipse
+    - Maven
+
+- name: Technical lead, Backend Engineer, Product owner, Scrum master
+  id: vuletech
+  description:
+  startDate:
+    year: 2018
+    month: Mar.
+    day:
+    simple: Mar. 2018
+  endDate:
+    year: 2019
+    month: Mar.
+    day:
+    simple: Mar. 2019
+  company:
+    name: Vuletech
+    url: http://www.vuletech.com/
+  location: Ho Chi Minh City
+  project: >
+    <a href="https://www.unilever.com.vn/" target="_blank">Unilever</a> Vehicle Management System (<b>UVMS</b>) is an AI-based plate recognition and container management platform that helps reduce paperwork and automate the checking process
+  roles: 
+    - Leader of a 3-member team
+    - Technical lead
+    - Backend Engineer
+    - Product owner
+    - Scrum master
+  contributions:
+    - Follow Agile methodology to manage team and develop the product
+    - Support and supervise technical of development teams
+    - Analyze requirements, design system architecture
+    - Set up infrastructure, design and implement database, APIs
+    - Integrate Artificial Intelligence (Vehicle and plate recognition) and Cameras
+    - Propose web and AI server configuration
+    - Deployment the web app, AI process and delivery
+    - Monitor system, fix bugs, backup and migrate database
+  results:
+    - The developed system was deployed and are being used stably at <b>Unilever Vietnam Factory</b>
+  link:
+  image:
+    url:
+    alt:
+  techs: 
+    - Agile with Trello
+    - Spring MVC
+    - Hibernate
+    - MySQL
+    - Tomcat
+    - Restful
+
+- name: Software Engineer
+  id: blockhive
+  description:
+  startDate:
+    year: 2019
+    month: Mar.
+    day:
+    simple: Mar. 2019
+  endDate:
+    year: 2019
+    month: Sept.
+    day:
+    simple: Sept. 2019
+  company:
+    name: Blockhive Vietnam.,JSC
+    url: https://blockhive.vn/en/
+  location: Ho Chi Minh City
+  project: >
+    <a href="https://www.e-saa.co.jp/items/" target="_blank">Subaru Auto Accessories (SAA)</a> 
+  roles: 
+    - One of the main contributors in a 6-member team
+  contributions:
+    - Design screens, write SQL Queries, implement data binding and interaction logic of a sales application of SAA
+    - Write Oracle-to-SQL tool to ease the attempts to convert SQL statements
+  results:
+    - The contributed was recognized and is being developed further
+  link:
+  image:
+    url:
+    alt:
+  techs: 
+    - .NET (C#)
+    - WPF
+    - MyBatis
+    - Oracle DB
+    - MSSQL
+
+- name: Software Engineer
+  id: zmp
+  description:
+  startDate:
+    year: 2019
+    month: Sept.
+    day:
+    simple: Sept. 2019
+  endDate:
+    year:
+    month:
+    day:
+    simple:
+  company:
+    name: ZMP Vietnam Co., Ltd.
+    url: https://zmp.vn/home/
+  location: Ho Chi Minh City
+  project: >
+    <a href="javascript:void(0)" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
+  roles: 
+    - Core member, main back-end one of a 5-member team
+    - Product owner, Scrum master (some features)
+  contributions:
+    - Regulate project's settings, coding style, structure, documents
+    - Apply AGILE continuous learning principle
+    - Plan (design DB, APIs, Front-end, workflow, deployment, migration) <i class="fas fa-arrow-right"></i> Push issues to Backlog (Product/Sprint) <i class="fas fa-arrow-right"></i> Estimate & assign members <i class="fas fa-arrow-right"></i> Create increment (implement, support, QC) <i class="fas fa-arrow-right"></i> Release
+    - Build, regulate base, core modules shared among services, and utilization
+    - "Build infrastructure: scheduled jobs, queued jobs, integration event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query and aggregation framework, .etc"
+    - "Investigate and apply new technologies: Swagger, HATEOAS, MongoDB replication & transaction"
+    - Research, integrate mathematics, ML algorithms like FFT, Object Detection, Octave
+    - Containerize and deploy (Docker, AI model), in CPU/GPU environment. Deploy owned services in Kubernetes
+    - Design, implement, quality-checking React components
+    - Collaborate with in-Japan members to design, apply algorithms 
+    - Review, refactor code
+    - Worked at <b><a href="https://www.zmp.co.jp/en/">ZMP Japan</a></b>, in <b>Tokyo</b> from Dec. 2019 to Feb. 2020
+  results:
+    - Released increments of 3 owned features
+    - Implemented back-ends of 5/9 features. 
+    - Some product's increments has been released, demonstrated to stakeholders, and continuously developed.
+    - Based modules has been shared with other teams
+    - A demo has been successfully performed at <a href="https://v2.nex-pro.com/campaign/8352/apply">ZMP World 2020</a>
+  link:
+  image:
+    url:
+    alt:
+  techs: 
+    - Agile (Scrum)
+    - RESTful
+    - <b>HATEOAS</b>
+    - Swagger
+    - Reactjs
+    - Nodejs
+    - Typescript
+    - Python
+    - MongoDB Replication & Transaction,
+    - Kubernetes
+    - <b>Docker</b>
+    - AWS
+    - Redis
+    - RabbitMQ
+    - PubSub
+    - Caching
+    - Workers (Nodejs-Python)
+    - AI Integration
+    - Digital Signal Processing
+    - pm2
+    - Shell
+    - MATLAB/Octave
+    - JupyterHub/JupyterLab

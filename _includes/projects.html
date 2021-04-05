@@ -1,0 +1,83 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="tab-pane overflow-auto" id="{{ section.id }}" role="tabpanel" aria-labelledby="{{ section.id }}-tab">
+  {% if section.description %}
+  <p><i>{{section.description}}</i></p>
+  {% endif %}
+  <div class="list-group">
+    {% for project in site.data.projects %}
+    <div class="list-group-item list-group-item-action">
+      <div class="media mt-2" id="project-{{project.id}}">
+        <a href="{{ project.link }}" target="_blank" title="Project URL">
+          <img src="{{ project.image.url }}" class="mr-3 mb-2 img-thumbnail border-0" alt="{{ project.image.alt }}"
+            title="{{ project.image.alt }}" width="100px">
+        </a>
+        <div class="media-body">
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mt-0">
+                <a class="highlighted" href="{{ project.link }}">{{ project.name }}</a>, <a
+                  href="{{ project.company.url }}" target="_blank">{{ project.company.name }}</a>,
+                {{ project.location }}
+              </h5>
+            </div>
+            <div class="col-4 text-right">
+              <span>{{ project.startDate.month }} {{ project.startDate.year }} -
+                {{ project.endDate.month }} {{ project.endDate.year }}</span>
+            </div>
+          </div>
+          {% if project.project %}
+          <div>
+            <b><em>Project:</em></b> {{project.project}}
+          </div>
+          {% endif %}
+          {% if project.roles %}
+          <div>
+            <b><em>Roles:</em></b>
+            <ul>
+              {% for role in project.roles %}
+              <li>{{ role }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if project.contributions %}
+          <div>
+            <b><em>Contributions:</em></b>
+            <ul>
+              {% for contribution in project.contributions %}
+              <li>{{ contribution }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if project.results %}
+          <div>
+            <b><em>Results:</em></b>
+            <ul>
+              {% for result in project.results %}
+              <li>{{ result }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if project.refs %}
+          <div>
+            {% for ref in project.refs %}
+            <i class="fas fa-link"></i>
+            <a href="{{ ref.url }}" target="_blank" title="{{ ref.title }}">{{ ref.title }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if project.techs %}
+          {% for tech in project.techs %}
+          <span class=" badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech
+            }}</span>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

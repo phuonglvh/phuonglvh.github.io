@@ -1,0 +1,21 @@
+{
+  "name": "phuonglvh",
+  "version": "1.0.0",
+  "description": "Phuong Le-Van-Hoang Profile",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuonglvh/profile.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Tyler Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phuonglvh/profile/issues"
+  },
+  "homepage": "https://github.com/phuonglvh/profile#readme"
+}
