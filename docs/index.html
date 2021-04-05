@@ -323,6 +323,14 @@
           </li>
           
           
+          
+          <li class="nav-item">
+            <a class="nav-link" id="" href="#projects" role="tab" aria-controls="projects"
+              aria-selected="true" style="font-family:Poppins;color:#149f98;">
+              Projects</a>
+          </li>
+          
+          
         </ul>
       </div>
       <div class="card-body">
@@ -382,10 +390,10 @@
           </div>
           
           
-        
           
           
-        
+          
+          
 <div class="tab-pane overflow-auto" id="certificates" role="tabpanel" aria-labelledby="certificates-tab">
   
   <p><i><span class="highlighted">My certificates</span></i></p>
@@ -933,9 +941,10 @@
   </div>
 
 </div>
-        
-        
-        
+
+          
+          
+          
           
           
           
@@ -1001,7 +1010,6 @@
               
             </ul>
           </div>
-          
           
           
           
@@ -1098,7 +1106,6 @@
           
           
           
-          
           <span class="badge badge-secondary mr-1" style="background-color:Black;">Agile with Trello</span>
           
           <span class="badge badge-secondary mr-1" style="background-color:Black;">Spring MVC</span>
@@ -1173,7 +1180,6 @@
               
             </ul>
           </div>
-          
           
           
           
@@ -1282,7 +1288,6 @@
           
           
           
-          
           <span class="badge badge-secondary mr-1" style="background-color:Black;">Agile (Scrum)</span>
           
           <span class="badge badge-secondary mr-1" style="background-color:Black;">RESTful</span>
@@ -1337,49 +1342,146 @@
   </div>
 
 </div>
+
           
-        
-        
+          
+          
+          
+          
+          
+<div class="tab-pane overflow-auto" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+  
+  <p><i><span class="highlighted">My personal projects</span></i></p>
+  
+  <div class="list-group">
+    
+    <div class="list-group-item list-group-item-action">
+      <div class="media mt-2" id="project-go-multi-rom-chat">
+        <a href="https://github.com/phuonglvh/golang-first-pet" target="_blank" title="Project URL">
+          <img src="/assets/img/projects/go-multi-room-chat.png" class="mr-3 mb-2 img-thumbnail border-0" alt="Project go-multi-room-chat preview"
+            title="Project go-multi-room-chat preview" width="100px">
+        </a>
+        <div class="media-body">
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mt-0">
+                <a class="highlighted" href="https://github.com/phuonglvh/golang-first-pet">Go Multi-room Chat</a>, <a
+                  href="https://phuonglvh.github.io" target="_blank">Self-employed</a>,
+                Ho Chi Minh City
+              </h5>
+            </div>
+            <div class="col-4 text-right">
+              <span> 2020 -
+                 2020</span>
+            </div>
+          </div>
+          
+          <div>
+            <b><em>Project:</em></b> Chat Application provides users with ability to join an existing room or anther new room via QR Code
+          </div>
+          
+          
+          <div>
+            <b><em>Roles:</em></b>
+            <ul>
+              
+              <li>Primary contributor in the Real-time Multi-room Chat Application written in Go</li>
+              
+            </ul>
+          </div>
+          
+          
+          <div>
+            <b><em>Contributions:</em></b>
+            <ul>
+              
+              <li>Design, and implement back-end’s logic like generating a unique QR code for each room, managing rooms</li>
+              
+            </ul>
+          </div>
+          
+          
+          <div>
+            <b><em>Results:</em></b>
+            <ul>
+              
+              <li>First version Go-First-Pet supports real-time updated messages, multi-rooms, QR code containerized by Docker was published on my public Github repo</li>
+              
+              <li>An docker image has been published to DockerHub and gained more than 40 pulls from the community.</li>
+              
+            </ul>
+          </div>
+          
+          
+          <div>
+            
+            <i class="fas fa-link"></i>
+            <a href="https://hub.docker.com/repository/docker/phuonglvh/go-multi-room-chat" target="_blank" title="DockerHub">DockerHub</a>
+            
+          </div>
+          
+          
+          
+          <span class=" badge badge-secondary mr-1" style="background-color:Black;">Go</span>
+          
+          <span class=" badge badge-secondary mr-1" style="background-color:Black;">MVC</span>
+          
+          <span class=" badge badge-secondary mr-1" style="background-color:Black;">Websocket</span>
+          
+          <span class=" badge badge-secondary mr-1" style="background-color:Black;">Docker</span>
+          
+          
+        </div>
       </div>
     </div>
+    
   </div>
 
+</div>
+          <!-- </div> -->
+          
+          
+          
+        </div>
+      </div>
+    </div>
 
 
-  <!-- ANIMATE.JS ANIMATE LIBRARY
+
+    <!-- ANIMATE.JS ANIMATE LIBRARY
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
 -->
 
 
-  <!--JS FUNCTION FOR RECENT WORK SECTION -->
-  <script>
-    $('#test-list a').on('click', function (e) {
-      e.preventDefault()
-      $(this).tab('show')
-    })
-  </script>
+    <!--JS FUNCTION FOR RECENT WORK SECTION -->
+    <script>
+      $('#test-list a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    </script>
 
-  <!-- OPTIONAL TOAST JS FUNCTION-->
-  <script>
-    $(document).ready(function () {
-      $(".toast").toast("show");
-    });
-  </script>
+    <!-- OPTIONAL TOAST JS FUNCTION-->
+    <script>
+      $(document).ready(function () {
+        $(".toast").toast("show");
+      });
+    </script>
 
 
-  <script>
-    $('body').scrollspy({
-      target: '#list-example'
-    })
-  </script>
+    <script>
+      $('body').scrollspy({
+        target: '#list-example'
+      })
+    </script>
 
-  <script>
-    $('.collapse').collapse()
-  </script>
+    <script>
+      $('.collapse').collapse()
+    </script>
 
-  <script>
-    $('.show').show()
-  </script>
+    <script>
+      $('.show').show()
+    </script>
     </div>
     <div class="dumbarton-spacer"></div>
     <div class="navbar navbar-default navbar-fixed-bottom">
