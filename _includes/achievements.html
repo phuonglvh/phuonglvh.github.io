@@ -1,0 +1,49 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="tab-pane overflow-auto" id="{{ section.id }}" role="tabpanel" aria-labelledby="{{ section.id }}-tab">
+    {% if section.description %}
+    <p><i>{{section.description}}</i></p>
+    {% endif %}
+    <div class="list-group">
+        {% for achievement in site.data.achievements %}
+        <div class="list-group-item list-group-item-action">
+            <div class="media mt-2" id="achievement-{{achievement.credential.id}}">
+                <a href="{{ achievement.itemImage.url }}" target="_blank" title="URL">
+                    <img src="{{ achievement.itemImage.url }}" class="mr-3 mb-2 img-thumbnail border-0"
+                        alt="{{ achievement.itemImage.title }}" title="{{ achievement.itemImage.title }}" width="100px">
+                </a>
+                <div class="media-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="mt-0">
+                                {% if achievement.namePrefix %}
+                                {{ achievement.namePrefix }}
+                                {% endif %}
+                                <a href="{{ achievement.course.url }}" class="highlighted">{{ achievement.name }}</a>
+                            </h5>
+                        </div>
+                        <div class="col-4 text-right">
+                            <span>{{ achievement.startDate.month }} {{ achievement.startDate.day }}, {{
+                                achievement.startDate.year }}
+                                - {{ achievement.endDate.month }} {{
+                                achievement.endDate.day }}, {{ achievement.endDate.year }}</span>
+                        </div>
+                    </div>
+                    {% if achievement.description %}
+                    <div>
+                        <p>{{achievement.description}}</p>
+                    </div>
+                    {% endif %}
+                    {% if achievement.refs %}
+                    <div>
+                        {% for ref in achievement.refs %}
+                        <i class="fas fa-link"></i>
+                        <a href="{{ ref.url }}" target="_blank" title="{{ ref.title }}">{{ ref.title }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
