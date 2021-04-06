@@ -1,0 +1,52 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="tab-pane overflow-auto" id="{{ section.id }}" role="tabpanel" aria-labelledby="{{ section.id }}-tab">
+    {% if section.description %}
+    <p><i>{{section.description}}</i></p>
+    {% endif %}
+    <div class="list-group">
+        {% for reference in site.data.references %}
+        <div class="list-group-item list-group-item-action">
+            <div class="media mt-2" id="reference-{{reference.id}}">
+                <a href="{{ reference.avatar.url }}" target="_blank" title="reference URL">
+                    <img src="{{ reference.avatar.url }}" class="mr-3 mb-2 img-thumbnail border-0"
+                        alt="{{ reference.avatar.alt }}" title="{{ reference.avatar.alt }}" width="100px">
+                </a>
+                <div class="media-body">
+                    <div>
+                        <h5 class="mt-0">
+                            <a class="highlighted" href="{{ reference.homepage.url }}"
+                                title="{{reference.homepage.title}}">{{
+                                reference.name }}</a>,
+                            {{ reference.workplace }}
+                        </h5>
+                    </div>
+                    {% if reference.occupation %}
+                    <div>
+                        <em>{{reference.occupation}}</em>
+                    </div>
+                    {% endif %}
+                    {% if reference.about %}
+                    <div>
+                        <p>{{reference.about}}</p>
+                    </div>
+                    {% endif %}
+                    {% if reference.relationship %}
+                    <div>
+                        <p>{{reference.relationship}}</p>
+                    </div>
+                    {% endif %}
+                    {% if reference.refs %}
+                    <div>
+                        {% for ref in reference.refs %}
+                        <i class="fas fa-link"></i>
+                        <a href="{{ ref.url }}" target="_blank" title="{{ ref.title }}">{{ ref.title }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
