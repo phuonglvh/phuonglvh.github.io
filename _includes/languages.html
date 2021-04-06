@@ -1,0 +1,92 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="tab-pane overflow-auto" id="{{ section.id }}" role="tabpanel" aria-labelledby="{{ section.id }}-tab">
+  {% if section.description %}
+  <p><i>{{section.description}}</i></p>
+  {% endif %}
+  <div class="list-group">
+    {% for language in site.data.languages %}
+    <div class="list-group-item list-group-item-action">
+      <div class="media mt-2" id="language-{{language.credential.id}}">
+        <a href="{{ language.credential.url }}" target="_blank" title="URL">
+          <img src="{{ language.issuer.logoURL }}" width="100px" class="mr-3 mb-2 img-thumbnail border-0"
+            alt="{{ language.issuer.logoAlt }}" title="{{ language.issuer.logoAlt }}">
+        </a>
+        <div class="media-body">
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mt-0">
+                <a href="{{ language.course.url }}" class="highlighted">{{ language.name }}</a>
+              </h5>
+            </div>
+            <div class="col-4 text-right">
+              {% if language.startDate %}
+              <span>
+                {{ language.startDate.month }} {{ language.startDate.day }}, {{ language.startDate.year }}
+                {%if language.endDate %}
+                - {{ language.endDate.month }} {{ language.endDate.day }}, {{ language.endDate.year }}
+                {% endif %}
+              </span>
+              {% endif %}
+            </div>
+          </div>
+          {% if language.descriptions %}
+          <div class="col-12">
+            <b><em>Description:</em></b> {{language.descriptions}}
+          </div>
+          {% endif %}
+          {% if language.offeredBy %}
+          <div class="col-12">
+            <b><em>Offered by:</em></b> {{language.offeredBy}}
+          </div>
+          {% endif %}
+          {% if language.instructor %}
+          <div class="col-12">
+            <b><em>Instructors:</em></b> {{language.instructor}}
+          </div>
+          {% endif %}
+          {% if language.grade %}
+          <div class="col-12">
+            <b><em>Grade:</em></b> {{language.grade}}
+          </div>
+          {% endif %}
+          {% if language.expiry %}
+          <div class="col-12">
+            <b><em>Expiry:</em></b> {{language.expiry}}
+          </div>
+          {% endif %}
+          {% if language.issueDate || language.expirationDate %}
+          <div class="row col-12">
+            {% if language.issueDate %}
+            <div class="col-6">
+              <b><em>Issue date:</em></b> {{ language.issueDate.month }} {{ language.issueDate.day }}, {{
+              language.issueDate.year }}
+            </div>
+            {% endif %}
+            {% if language.expirationDate %}
+            <div class="col-6">
+              <b><em>Expiration date:</em></b> {{ language.expirationDate.month }} {{ language.expirationDate.day }}, {{
+              language.expirationDate.year }}
+            </div>
+            {% endif %}
+          </div>
+          {% endif %}
+          {% if language.credential %}
+          <div>
+            <b><em>Credential ID:</em></b> {{language.credential.id}} <a href="{{language.credential.url}}"
+              target="_blank">See
+              credential <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+          </div>
+          {% endif %}
+          {% if language.tags %}
+          {% for tag in language.tags %}
+          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tag
+            }}</span>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

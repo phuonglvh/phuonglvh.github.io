@@ -4,14 +4,26 @@ links:
 - title: About
   url: about.html
 
+- title: Experiences
+  url: experiences.html
+
 - title: Publications
   url: publications.html
 
-# - title: Blog
-#   url: blog.html
-
 - title: Certificates
   url: certificates.html
+
+- title: Achievements
+  url: achievements.html
+
+- title: Activities
+  url: activities.html
+
+- title: Languages
+  url: languages.html
+
+- title: References
+  url: references.html
 
 - title: Vitae
   url: /assets/pdf/CV_PhuongLeVanHoang.pdf
