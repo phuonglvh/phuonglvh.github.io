@@ -1,0 +1,90 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div
+  class="tab-pane overflow-auto"
+  id="{{ section.id }}"
+  role="tabpanel"
+  aria-labelledby="{{ section.id }}-tab"
+>
+  {% if section.description %}
+  <p><i>{{section.description}}</i></p>
+  {% endif %}{% assign activitiesLen = site.data.activities.size %} {% if
+  activitiesLen | modulo: 2 == 1 %} {% assign totalRows = activitiesLen |
+  divided_by: 2 | plus: 1 %} {% else %} {% assign totalRows = activitiesLen |
+  divided_by: 2 %} {% endif %} {% for index1B in (1..totalRows)) %} {% assign
+  index = index1B | minus: 1 %} {% assign leftActIdx = index | divided_by: 0.5 |
+  round: 0 %}{% assign rightActIdx = leftActIdx | plus: 1 %}
+
+  <div
+    id="row-{{ index }}"
+    class="row"
+    style="
+      display: flex;
+      justify-content: justify;
+      align-items: justify;
+      padding-bottom: 1rem;
+    "
+  >
+    {% assign leftAct = site.data.activities[leftActIdx] %}
+    <div class="col-6" id="activity-{{ leftAct.id }}-{{ leftActIdx }}">
+      <div class="card">
+        {%- comment -%}
+        <div class="card-header">#{{ leftActIdx }}</div>
+        {%- endcomment -%}
+        <img
+          src="{{ leftAct.imageCap.url }}"
+          class="card-img-top"
+          alt="leftAct.imageCap.title"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ leftAct.name }}</h5>
+          <p class="card-text">{{ leftAct.description }}</p>
+          <p class="card-text">
+            <small class="text-muted"
+              >Last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</small
+            >
+          </p>
+        </div>
+        {% if leftAct.refs %}
+        <div class="card-body">
+          {% for ref in leftAct.refs %}
+          <a href="{{ ref.url }}" class="card-link">{{ ref.title }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% if rightActIdx < activitiesLen %} {% assign rightAct =
+    site.data.activities[rightActIdx] %}
+    <div class="col-6" id="activity-{{ rightAct.id }}-{{ rightActIdx }}">
+      <div class="card">
+        {%- comment -%}
+        <div class="card-header">#{{ rightActIdx }}</div>
+        {%- endcomment -%}
+        <img
+          src="{{ rightAct.imageCap.url }}"
+          class="card-img-top"
+          alt="rightAct.imageCap.title"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ rightAct.name }}</h5>
+          <p class="card-text">{{ rightAct.description }}</p>
+          <p class="card-text">
+            <small class="text-muted"
+              >Last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</small
+            >
+          </p>
+        </div>
+        {% if rightAct.refs %}
+        <div class="card-body">
+          {% for ref in rightAct.refs %}
+          <a href="{{ ref.url }}" class="card-link">{{ ref.title }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+<style type="text/css"></style>

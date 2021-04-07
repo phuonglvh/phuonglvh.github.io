@@ -1,3 +1,59 @@
-- id: onsite-jp
-  name:
-  date:
+- id: onsite-jp-1
+  name: Worked on-site in ZMP, Japan
+  imageCap:
+    url: https://media-exp1.licdn.com/dms/image/C562DAQE0Tr9Tx-jY5g/profile-treasury-image-shrink_800_800/0/1602674318467?e=1617811200&v=beta&t=t4hwGRbZHEk2ocdZlNFqECrS_Exj7pbwJtqn7HQmSzY
+    title:
+    alt:
+  description: 🇯🇵 Worked in Japan from Dec. 2019 to Feb. 2020🇯🇵
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
+
+- id: seamls
+  name: Southeast Asia Machine Learning School at Universitas
+  imageCap:
+    url: https://media-exp1.licdn.com/dms/image/C562DAQHrvrJHyhH3PQ/profile-treasury-image-shrink_1280_1280/0/1602674115874?e=1617894000&v=beta&t=pLO2TDy26ekrFLhVHk8qF9_dcWFcb9SiyIcASE4CFCw
+    title:
+    alt:
+  description: Participated in Southeast Asia Machine Learning School at Universitas of Indonesia
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
+
+- id: bkinnovation2019
+  name: Third prize in Bach Khoa Innovation 2019
+  imageCap:
+    url: https://media-exp1.licdn.com/dms/image/C512DAQHFzatGOdRpUQ/profile-treasury-image-shrink_1920_1920/0/1597481261958?e=1617894000&v=beta&t=b2-W9KMK8d7H__BSByfs7qSzyBS56gDztZGHHlC1J4k
+    title:
+    alt:
+  description: "Won the third prize in Bach Khoa Innovation 2019 with project: BLE-based Indoor Positioning System"
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
+
+- id: bkyst
+  name: Speaker at Bach Khoa Youth Science and Technology Conference 2019
+  imageCap:
+    url: https://media-exp1.licdn.com/dms/image/C562DAQHoNZ4ArAZmJg/profile-treasury-image-shrink_8192_8192/0/1602333170761?e=1617894000&v=beta&t=G7F8Iyl9hHnGG7M9uw-YcsPCL5snXZMtqP4ZaDiwSUA
+    title:
+    alt:
+  description: I had got a chance to present my scientific <b><a href="http://stdjet.scienceandtechnology.com.vn/index.php/stdjet/article/view/456" target="_blank">research</a></b> at the BKYST conference, hold at <a href="https://www.hcmut.edu.vn/en" target="_blank" title="Website:Ho Chi Minh City University of Technology, VNU-HCM">Ho Chi Minh City University of Technology, VNU-HCM</a>
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
+
+- id: pif
+  name: I got an invitation to Pay It Forward Club 9-year anniversary to present my scientific research
+  imageCap:
+    url: https://media-exp1.licdn.com/dms/image/C562DAQEjkpA3JFd7Mw/profile-treasury-image-shrink_8192_8192/0/1602332863220?e=1617894000&v=beta&t=tzm6aaHZI1qWHRaIltLHRt3PZF1FWF59wo049gfDK2Y
+    title:
+    alt:
+  description: "PIF Club gives me a chance to give a speech about Indoor Positioning System for Hospitals, which was my research and published at: <a href=\"https://bit.ly/2GJoiOb\" target=\"_blank\">https://bit.ly/2GJoiOb</a>"
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
