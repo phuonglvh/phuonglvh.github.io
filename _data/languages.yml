@@ -19,7 +19,7 @@
   course:
     url: 
   issuer: 
-    logoURL: https://media.iigvietnam.com/Media/1_IIG/Images/tai-xuong0340cf2e-2-e.png
+    logoURL: /assets/img/languages/iigvietnam.png
     logoAlt: Logo
   offeredBy: <a href="https://iigvietnam.com/vi/" target="_blank">IIG Vietnam</a>
   instructor:
@@ -43,7 +43,7 @@
   course:
     url: 
   issuer: 
-    logoURL: http://bkenglish.edu.vn/vnt_upload/weblink/logo1.png
+    logoURL: /assets/img/languages/bkenglish.png
     logoAlt: Logo
   offeredBy: <a href="http://bkenglish.edu.vn/" target="_blank">BKEnglish</a>
   instructor:

@@ -1,7 +1,7 @@
 - id: datalogic-scholarship
   cat: scholarship
   itemImage:
-    url: https://www.datalogic.com/images/logo.png
+    url: /assets/img/achievements/datalogic.png
     title: Datalogic logo
   name: Datalogic scholarship 2017
   namePrefix: <i class="fas fa-medal"></i>
@@ -22,7 +22,7 @@
 - id: eSilicon-scholarship-2017
   cat: scholarship
   itemImage:
-    url: https://www.internship.edu.vn/wp-content/uploads/Logo-21.jpg
+    url: /assets/img/achievements/eSilicon.jpg
     title: eSilicon logo
   name: eSilicon scholarship 2017
   namePrefix: <i class="fas fa-medal"></i>
@@ -42,7 +42,7 @@
 - id: eSilicon-scholarship-2018
   cat: scholarship
   itemImage:
-    url: https://www.internship.edu.vn/wp-content/uploads/Logo-21.jpg
+    url: /assets/img/achievements/eSilicon.jpg
     title: eSilicon logo
   name: eSilicon scholarship 2018
   namePrefix: <i class="fas fa-medal"></i>
@@ -62,7 +62,7 @@
 - id: kandenss-scholarship-2018
   cat: scholarship
   itemImage:
-    url: http://ks-sol.jp/20190401_common/img/logo_ks-sol.svg
+    url: /assets/img/achievements/kandenss.svg
     title: Kanden SS logo
   name: Kanden SS scholarship 2018
   namePrefix: <i class="fas fa-medal"></i>
@@ -82,7 +82,7 @@
 - id: bk-innovation
   cat: contest
   itemImage:
-    url: https://oisp.hcmut.edu.vn/bk-innovation/wp-content/uploads/2020/12/BK-Innovation-Logo600.png
+    url: /assets/img/achievements/bkinnovation2019.png
     title: BK Innovation 2019 logo
   name: Third prize in <a href="https://oisp.hcmut.edu.vn/bk-innovation/" target="_blank" title="Bach Khoa Innovation 2019 page">Bach Khoa Innovation 2019</a>
   namePrefix: <i class="fas fa-trophy"></i>
