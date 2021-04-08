@@ -57,3 +57,16 @@
   refs:
     - title:
       url:
+       
+
+- id: ti2017
+  name: One of 2 MCs of Texas Instruments Innovation Challenge - Vietnam MCU Design Contest 2017
+  imageCap:
+    url: /assets/img/activities/ti2017.jpeg
+    title:
+    alt:
+  description: "I was very happy to be an MC of Texas Instruments Innovation Challenge - Vietnam MCU Design Contest 2017"
+  last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
+  refs:
+    - title:
+      url:
