@@ -1,0 +1,11 @@
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="row h-100" style="display: flex; height: max-content;" id="pdf-container">
+</div>
+<script src="https://unpkg.com/pdfobject@2.2.5/pdfobject.min.js"></script>
+<script>
+  var options = {
+    height: "1080px",
+    pdfOpenParams: { view: 'FitV', page: '2' }
+  };
+  PDFObject.embed("/assets/pdf/CV_PhuongLeVanHoang.pdf", "#pdf-container", options);
+</script>

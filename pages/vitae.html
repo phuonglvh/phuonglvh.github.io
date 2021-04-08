@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /vitae.html
+title: Thank you for reaching out to Phuong's vitae
+header-img:
+last-updated: '{{ "now" | date: "%Y-%m-%d %H:%M" }}'
+---
+
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="blogcard card-1 mb-4" style="width: 100%">
+  <div class="card-body">
+    <h5
+      class="card-title text-center"
+      style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};"
+    >
+      {{ page.title }}
+    </h5>
+  </div>
+</div>
+{% include vitae.html %}
