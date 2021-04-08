@@ -7,8 +7,6 @@
   description: 🇯🇵 Worked in Japan from Dec. 2019 to Feb. 2020🇯🇵
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
 
 - id: seamls
   name: Southeast Asia Machine Learning School at Universitas
@@ -19,8 +17,6 @@
   description: Participated in Southeast Asia Machine Learning School at Universitas of Indonesia
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
 
 - id: bkinnovation2019
   name: Third prize in Bach Khoa Innovation 2019
@@ -31,8 +27,6 @@
   description: "Won the third prize in Bach Khoa Innovation 2019 with project: BLE-based Indoor Positioning System"
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
 
 - id: bkyst
   name: Speaker at Bach Khoa Youth Science and Technology Conference 2019
@@ -43,8 +37,6 @@
   description: I had got a chance to present my scientific <b><a href="http://stdjet.scienceandtechnology.com.vn/index.php/stdjet/article/view/456" target="_blank">research</a></b> at the BKYST conference, hold at <a href="https://www.hcmut.edu.vn/en" target="_blank" title="Website:Ho Chi Minh City University of Technology, VNU-HCM">Ho Chi Minh City University of Technology, VNU-HCM</a>
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
 
 - id: pif
   name: I got an invitation to Pay It Forward Club 9-year anniversary to present my scientific research
@@ -55,8 +47,6 @@
   description: "PIF Club gives me a chance to give a speech about Indoor Positioning System for Hospitals, which was my research and published at: <a href=\"https://bit.ly/2GJoiOb\" target=\"_blank\">https://bit.ly/2GJoiOb</a>"
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
        
 
 - id: ti2017
@@ -68,5 +58,3 @@
   description: "I was very happy to be an MC of Texas Instruments Innovation Challenge - Vietnam MCU Design Contest 2017"
   last_updated: "\"now\" | date: \"%Y-%m-%d %H:%M\""
   refs:
-    - title:
-      url:
