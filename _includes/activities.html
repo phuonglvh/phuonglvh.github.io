@@ -28,7 +28,9 @@
     site.data.activities[leftActIdx] %}
     <div class="col-6" id="activity-{{ leftAct.id }}-{{ leftActIdx }}">
       <div class="card h-100">
+        {% comment %}
         <div class="card-header">#{{ leftActIdx }}</div>
+        {% endcomment %}
         <img
           src="{{ leftAct.imageCap.url }}"
           class="card-img-top img-fluid rounded"
