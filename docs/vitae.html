@@ -88,20 +88,20 @@
 <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
 
 <meta property="fb:app_id" content="">
-<meta property="og:url" content="/contact.html">
+<meta property="og:url" content="/vitae.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="">
 <meta property="og:image" content="">
 <meta property="og:image:alt" content="">
 <meta property="og:description" content="">
-<meta property="og:site_name" content="">
+<meta property="og:site_name" content="Thank you for reaching out to Phuong's vitae">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@">
 <meta name="twitter:creator" content="@">
-<meta name="twitter:url" content="/contact.html">
+<meta name="twitter:url" content="/vitae.html">
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
@@ -285,45 +285,31 @@
       <div class="card-body">
         <p class="card-text">
           
-<div class="blogcard card-2 mb-4 mt-4" style="width: 100%;">
+<div class="blogcard card-1 mb-4" style="width: 100%">
   <div class="card-body">
-    <h1 class="card-title text-center"
-      style="font-size:36px;font-weight:700;"></h1>
-    <p><p>Feel free to reach out to me on 
-<a href="https://github.com/phuonglvh" class="highlighted">Github</a>, 
-<a href="https://www.linkedin.com/in/phuonglvh/" class="highlighted">Linkedin</a></p>
- </p>
-    <!-- Target -->
-    
+    <h5
+      class="card-title text-center"
+      style="font-size:36px;font-weight:700;"
+    >
+      Thank you for reaching out to Phuong's vitae
+    </h5>
   </div>
 </div>
 
-<div class="card shadow">
-  <div class="container">
-    <form name="contact" method="POST" data-netlify="true"
-      action="mailto:hpcqt97@gmail.com?subject=Interested in Phuong Le Profile" enctype="text/plain">
-      <div class="mb-3 mt-5">
-        <input type="name" placeholder="Your Name" name="name" class="form-control" id="inputForName" />
-      </div>
-      <div class="mb-3">
-        <textarea type="message" placeholder="Your Message" name="message" class="form-control"
-          id="inputforMessage"></textarea>
-      </div>
-      <div class="mb-3">
-        <input type="email" placeholder="Your Email" name="email" class="form-control" id="inputforEmail">
-      </div>
-      <button type="submit" class="btn mb-4" style="background-color:;">Submit</button>
-    </form>
-  </div>
+<div class="row h-100" style="display: flex; height: max-content;" id="pdf-container">
 </div>
-
+<script src="https://unpkg.com/pdfobject@2.2.5/pdfobject.min.js"></script>
 <script>
-  function startClippy() {
-    new ClipboardJS('.btn');
-  }
-  window.onload = startClippy;
+  var options = {
+    height: "1080px",
+    pdfOpenParams: { view: 'FitV', page: '2' }
+  };
+  PDFObject.embed("/assets/pdf/CV_PhuongLeVanHoang.pdf", "#pdf-container", options);
 </script>
+
         </p>
+        
+        <p class="card-text"><small class="text-muted">This page was last updated at 2021-04-08 20:19.</small></p>
         
       </div>
     </div>
