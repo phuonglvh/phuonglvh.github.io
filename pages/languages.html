@@ -3,13 +3,18 @@ layout: page
 permalink: /languages.html
 title: Languages
 header-img:
-last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
+last-updated: 2021-04-08 20:39
 ---
+
 {% assign theme = site.data.themes[site.ui_theme] %}
-<div class="blogcard  card-1 mb-4" style="width: 100%;">
+<div class="blogcard card-1 mb-4" style="width: 100%">
   <div class="card-body">
-    <h5 class="card-title text-center"
-      style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h5>
+    <h5
+      class="card-title text-center"
+      style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};"
+    >
+      {{ page.title }}
+    </h5>
   </div>
 </div>
 {% include languages.html %}

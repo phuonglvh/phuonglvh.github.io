@@ -139,7 +139,8 @@
     <a href="javascript:void(0)" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
   roles: 
     - Core member, main back-end one of a 5-member team
-    - Product owner, Scrum master (some features)
+    - Feature owner (functionality)
+    - Feature lead (technique)
   contributions:
     - Regulate project's settings, coding style, structure, documents
     - Apply AGILE continuous learning principle
@@ -164,7 +165,7 @@
     url:
     alt:
   techs: 
-    - Agile (Scrum)
+    - <b>Agile (Scrum)</b>
     - RESTful
     - <b>HATEOAS</b>
     - Swagger
@@ -173,7 +174,8 @@
     - Typescript
     - Python
     - MongoDB Replication & Transaction,
-    - Kubernetes
+    - <b>Kubernetes</b>
+    - <b>Bitbucket Pipelines</b>
     - <b>Docker</b>
     - AWS
     - Redis
@@ -181,9 +183,9 @@
     - PubSub
     - Caching
     - Workers (Nodejs-Python)
-    - AI Integration
+    - AI Integration (YOLO, EfficientNet)
     - Digital Signal Processing
     - pm2
     - Shell
-    - MATLAB/Octave
-    - JupyterHub/JupyterLab
+    - MATLAB/Octave Integration
+    - JupyterHub/JupyterLab Integration

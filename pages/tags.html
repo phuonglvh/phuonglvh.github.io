@@ -4,29 +4,37 @@ permalink: /tags.html
 title: Tagsc
 description: I write about cyber threat intelligence
 header-img:
-<!-- last-updated: 2020-10-30 5:55 PM -->
-last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
+last-updated: 2021-04-08 20:39
 ---
 
 <!-- Page Content -->
 <div class="container">
-
   <div class="row">
     <!-- Blog Entries Column -->
     <div class="col-md-8">
-      <h1 class="my-4" style="font-family:Courgette;">{{ page.title }}</h1>
+      <h1 class="my-4" style="font-family: Courgette">{{ page.title }}</h1>
       <!-- Blog Post -->
       {% for post in site.posts %}
       <div class="card mb-4">
-        <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+        <img
+          class="card-img-top"
+          src="http://placehold.it/750x300"
+          alt="Card image cap"
+        />
         <div class="card-body">
           <h2 class="card-title">{{ post.title }}</h2>
           <p class="card-text">{{ post.description }}</p>
           {% if site.nav-color == "demo" %}
-          <a href="{{ post.url }}" class="btn btn-primary text-white" style="background-color:#00334e">Read Article
-            &rarr;</a>
+          <a
+            href="{{ post.url }}"
+            class="btn btn-primary text-white"
+            style="background-color: #00334e"
+            >Read Article &rarr;</a
+          >
           {% else %}
-          <a href="{{ post.url }}" class="btn btn-primary">Read Article &rarr;</a>
+          <a href="{{ post.url }}" class="btn btn-primary"
+            >Read Article &rarr;</a
+          >
           {% endif %}
         </div>
         <div class="card-footer text-muted">
@@ -45,7 +53,6 @@ last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
           <a class="page-link" href="#">Newer &rarr;</a>
         </li>
       </ul>
-
     </div>
     <!-- Sidebar Widgets Column -->
     <div class="col-md-4">
@@ -54,7 +61,11 @@ last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
         <h5 class="card-header">Search</h5>
         <div class="card-body">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for...">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for..."
+            />
             <span class="input-group-btn">
               <button class="btn btn-secondary" type="button">Go!</button>
             </span>
@@ -72,9 +83,16 @@ last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
                 {% for tag in site.tags %}
                 <li>
                   {% if site.nav-color == "demo" %}
-                  <a href="#" class="btn btn-sm mt-1 mb-1 text-white" style="background-color:#5588a3">{{ tag[0] }}</a>
+                  <a
+                    href="#"
+                    class="btn btn-sm mt-1 mb-1 text-white"
+                    style="background-color: #5588a3"
+                    >{{ tag[0] }}</a
+                  >
                   {% else %}
-                  <a href="#" class="btn btn-sm mt-1 mb-1 btn-dark">{{ tag[0] }}</a>
+                  <a href="#" class="btn btn-sm mt-1 mb-1 btn-dark"
+                    >{{ tag[0] }}</a
+                  >
                   {% endif %}
                 </li>
                 {% endfor %}
@@ -94,27 +112,34 @@ last-updated: "{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}"
         </div>
       </div>
 
-
       <!-- Twitter Side Widget -->
       <div class="card my-4">
         <h5 class="card-header">Twitter Widget</h5>
         <div class="card-body">
-          <a class="twitter-timeline" data-height="450" data-theme="light"
-            href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw">Tweets by {{ site.twitter }}</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a
+            class="twitter-timeline"
+            data-height="450"
+            data-theme="light"
+            href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw"
+            >Tweets by {{ site.twitter }}</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
         </div>
       </div>
-
 
       <!-- Side Widget -->
       <div class="card my-4">
         <h5 class="card-header">Side Widget</h5>
         <div class="card-body">
-          <p> You can make this into anything you want </p>
+          <p>You can make this into anything you want</p>
         </div>
       </div>
-
     </div>
     <!-- /.row -->
   </div>
   <!-- /.container -->
+</div>

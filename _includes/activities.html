@@ -47,9 +47,10 @@
           <h5 class="card-title">{{ leftAct.name }}</h5>
           <p class="card-text">{{ leftAct.description }}</p>
           <p class="card-text">
-            <small class="text-muted"
-              >Last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</small
-            >
+            <small class="text-muted">
+              {% comment %} Last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
+              {% endcomment %} Last updated at {{ page.last-updated }}
+            </small>
           </p>
         </div>
         {% if leftAct.refs %}
@@ -85,7 +86,7 @@
           <p class="card-text">{{ rightAct.description }}</p>
           <p class="card-text">
             <small class="text-muted"
-              >Last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</small
+              >Last updated at {{ page.last-updated }}</small
             >
           </p>
         </div>
