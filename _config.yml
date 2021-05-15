@@ -9,7 +9,6 @@
 #========================================#
 
 title: Phuong Le-Van-Hoang 
-email: hpcqt97@gmail.com
 description: phuonglvh profile page
 baseurl: /                                      # the subpath of your site, e.g. /blog
 url: /         # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,7 +29,7 @@ stackoverflow:
 website: https://stringify.me/phuonglvh
 codepen: 
 medium: 
-email: hpcqt97@gmail.com
+email: phuonglevanhoang@gmail.com
 keybase: 
 pgp: 
 ctftime: 
