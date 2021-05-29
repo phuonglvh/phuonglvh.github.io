@@ -7,9 +7,19 @@
     ><h4
       style="font-family:{{ theme.title-font }};font-weight:600;color:{{ theme.nav-text}};"
     >
-      {{ site.title }}
-    </h4></a
-  >
+      <div 
+        class="row" 
+        style="align-content: center;align-items: center;"
+      >
+        <img 
+          src="{{ site.profile_image }}"
+          alt="{{ site.title }}'s avatar"
+          style="border-radius: 5px;width: 20px;height: 20px;"
+        >
+        {{ site.title }}
+      </div>
+    </h4>
+  </a>
   <button
     class="navbar-toggler text-{{ theme.button-color }}"
     type="button"

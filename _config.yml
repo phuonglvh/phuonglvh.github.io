@@ -8,12 +8,12 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Phuong Le-Van-Hoang 
-description: phuonglvh profile page
+title: Phuong Le
+description: Phuong Le Van Hoang's profile page
 baseurl: /                                      # the subpath of your site, e.g. /blog
 url: /         # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/preview.png               # used to generate site link preview
-image_alt: phuonglvh profile page preview   # image description
+image_alt: Phuong Le Van Hoang's profile page   # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
