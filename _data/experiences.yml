@@ -104,7 +104,7 @@
     - One of the main contributors in a 6-member team
   contributions:
     - Design screens, write SQL Queries, implement data binding and interaction logic of a sales application of SAA
-    - Write Oracle-to-SQL tool to ease the attempts to convert SQL statements
+    - Write <b>Oracle-to-SQL</b> tool to ease the attempts to convert SQL statements
   results:
     - The contributed was recognized and is being developed further
   link:
@@ -136,14 +136,14 @@
     url: https://zmp.vn/home/
   location: Ho Chi Minh City
   project: >
-    <a href="javascript:void(0)" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
+    <a href="https://robodataplatform.com" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
   roles: 
     - Core member, main back-end one of a 5-member team
     - Feature owner (functionality)
     - Feature lead (technique)
   contributions:
     - Regulate project's settings, coding style, structure, documents
-    - Apply AGILE continuous learning principle
+    - Apply AGILE methodology
     - Plan (design DB, APIs, Front-end, workflow, deployment, migration) <i class="fas fa-arrow-right"></i> Push issues to Backlog (Product/Sprint) <i class="fas fa-arrow-right"></i> Estimate & assign members <i class="fas fa-arrow-right"></i> Create increment (implement, support, QC) <i class="fas fa-arrow-right"></i> Release
     - Build, regulate base, core modules shared among services, and utilization
     - "Build infrastructure: scheduled jobs, queued jobs, integration event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query and aggregation framework, .etc"
@@ -155,37 +155,52 @@
     - Review, refactor code
     - Worked at <b><a href="https://www.zmp.co.jp/en/">ZMP Japan</a></b>, in <b>Tokyo</b> from Dec. 2019 to Feb. 2020
   results:
-    - Released increments of 3 owned features
-    - Implemented back-ends of 5/9 features. 
+    - |
+      Released increments of 4 owned
+      <a href="javascript:void(0)" target="_blank">features</a>:
+      <ul>
+        <li>
+          <b>Analysis</b>: FFT, Spectrogram
+        </li>
+        <li>
+          <b>Integrated IDEs</b>: MATLAB/Octave, JupyterLab
+        </li>
+        <li>
+          <b>Adv. Algorithms</b>: Object Detection
+        </li>
+        <li>
+          <b>Email service</b>
+        </li>
+      </ul>
+    - Implemented the backend of 5/9 features
     - Some product's increments has been released, demonstrated to stakeholders, and continuously developed.
     - Based modules has been shared with other teams
-    - A demo has been successfully performed at <a href="https://v2.nex-pro.com/campaign/8352/apply">ZMP World 2020</a>
+    - The first demo has been successfully performed at <a href="https://v2.nex-pro.com/campaign/8352/apply">ZMP World 2020</a>
+    - Come into production stage and the demo has been successfully performed at <a href="https://www.zmp.co.jp/en/event/zmpworld2021">ZMP World 2021</a>
   link:
   image:
     url:
     alt:
   techs: 
     - <b>Agile (Scrum)</b>
-    - RESTful
     - <b>HATEOAS</b>
+    - RESTful
     - Swagger
     - Reactjs
-    - Nodejs
-    - Typescript
+    - Node Typescript
     - Python
-    - MongoDB Replication & Transaction,
+    - MongoDB Replication,
     - <b>Kubernetes</b>
     - <b>Bitbucket Pipelines</b>
     - <b>Docker</b>
-    - AWS
+    - <b>AWS (EKS, S3, SES)</b>
     - Redis
     - RabbitMQ
-    - PubSub
     - Caching
-    - Workers (Nodejs-Python)
-    - AI Integration (YOLO, EfficientNet)
-    - Digital Signal Processing
+    - Job System
+    - AI Integration (YOLOv3, YOLOv5, EfficientNet)
+    - FFT
     - pm2
     - Shell
-    - MATLAB/Octave Integration
-    - JupyterHub/JupyterLab Integration
+    - MATLAB/Octave
+    - JupyterHub/JupyterLab
