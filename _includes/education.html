@@ -4,13 +4,13 @@
   Education</h5>
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
-  <li class="media">
+  <li class="media" style="margin: 10px 0;">
     <img src="{{ entry.Icon }}" width="{{ entry.IconW }}" height="{{ entry.IconH }}" alt="{{ entry.Alt }}">
     <div class="media-body">
       <h5
         style="font-family:{{ theme.education-entry-font}}; font-size:{{ theme.education-entry-size }}; color:{{theme.education-font-color}};">
         {{ entry.School }}</h5>
-
+      <h6>{{ entry.StartDate }} - {{ entry.EndDate }}</h6>
       {% if entry.Faculty %}
       <p
         style="font-family:{{ theme.education-entry-font}}; font-size:{{ theme.education-section-size }}; color:{{theme.education-font-color}};">
