@@ -28,5 +28,8 @@ links:
 - title: Vitae
   url: vitae.html
 
+- title: Posts
+  url: blog.html  
+
 - title: Contact
   url: contact.html
