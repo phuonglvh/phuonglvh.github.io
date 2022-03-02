@@ -7,10 +7,10 @@
     day:
     simple: Sep. 2019
   endDate:
-    year:
+    year: Now
     month:
     day:
-    simple:
+    simple: Now (2 years 7m)
   company:
     name: ZMP Vietnam Co., Ltd.
     url: https://zmp.vn/home
@@ -19,27 +19,30 @@
     <a href="https://robodataplatform.com" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
   roles: 
     - Core member, main back-end one of a 5-member team
-    - Feature owner (functionality)
-    - Feature lead (technique)
+    - Backend lead (5 features)
+    - DevOps
   contributions:
-    - Regulate project's settings, coding style, structure, documents
-    - Apply AGILE methodology
-    - Plan (design DB, APIs, Front-end, workflow, deployment, migration) <i class="fas fa-arrow-right"></i> Push issues to Backlog (Product/Sprint) <i class="fas fa-arrow-right"></i> Estimate & assign members <i class="fas fa-arrow-right"></i> Create increment (implement, support, QC) <i class="fas fa-arrow-right"></i> Release
-    - Build, regulate base, core modules shared among services, and utilization
-    - "Build infrastructure: scheduled jobs, queued jobs, integration event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query and aggregation framework, .etc"
-    - "Investigate and apply new technologies: Swagger, HATEOAS, MongoDB replication & transaction"
-    - Research, integrate mathematics, ML algorithms like FFT, Object Detection, Octave
-    - Containerize and deploy (Docker, AI model), in CPU/GPU environment. Deploy owned services in Kubernetes
-    - Maintain DevOps
-    - Design, implement, quality-checking React components
-    - Collaborate with in-Japan members to design, apply algorithms 
+    - Regulate project’s structure, coding style, documents
+    - SupportScrumMastertoachieveAgility
+    - Lead features:designArch-FE-BE→create sub-tasks→implement→release
+    - Design architectures
+    - Build, regulate base, core modules shared among services, and utilization.
+    - "Build infrastructure: OAuth, mailing, scheduled jobs, queued jobs, event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query, and aggregation framework, .etc"
+    - Investigate new technologies
+    - Train&DeployAIModels,integrateFFT,Octave,Jupyterlab.
+    - ManageDevOps, Kubernetes, AWS resources.
+    - Collaborate with Japan members to design, apply algorithms.
     - Review, refactor code
     - Worked at <b><a href="https://www.zmp.co.jp/en/">ZMP Japan</a></b>, in <b>Tokyo</b> from Dec. 2019 to Feb. 2020
   results:
+    - "Latest milestone: Lead successfully Docker Pipelines and self-developed Git Deployment Pipelines"
     - |
-      Released increments of 4 owned
+      Released increments of 5 led
       <a href="javascript:void(0)" target="_blank">features</a>:
       <ul>
+        <li>
+          <b>AI Marketplace (Docker Pipelines, AI Pipelines)</b>
+        </li>
         <li>
           <b>Analysis</b>: FFT, Spectrogram
         </li>
@@ -53,7 +56,7 @@
           <b>Email service</b>
         </li>
       </ul>
-    - Implemented the backend of 5/9 features
+    - Lead the backend of 5/9 features
     - Some product's increments has been released, demonstrated to stakeholders, and continuously developed.
     - Based modules has been shared with other teams
     - The first demo has been successfully performed at <a href="https://v2.nex-pro.com/campaign/8352/apply">ZMP World 2020</a>
@@ -64,27 +67,18 @@
     alt:
   techs: 
     - <b>Agile (Scrum)</b>
-    - <b>HATEOAS</b>
-    - RESTful
-    - Swagger
-    - Reactjs
-    - Node Typescript
+    - RESTful, <b>HATEOAS</b>, Swagger
+    - Nodejs (Typescript), Reactjs (Typescript)
     - Python
-    - MongoDB Replication,
-    - <b>Kubernetes</b>
+    - MongoDB, Postgres, Redis
+    - <b>Kubernetes</b>, Docker, Docker-in-Docker GPU, Docker Registry
     - <b>Bitbucket Pipelines</b>
-    - <b>Docker</b>
     - <b>AWS (EKS, S3, SES)</b>
-    - Redis
-    - RabbitMQ
-    - Caching
-    - Job System
-    - AI Integration (YOLOv3, YOLOv5, EfficientNet)
-    - FFT
-    - pm2
-    - Shell
-    - Octave
-    - JupyterHub
+    - Redis, RabbitMQ
+    - "Caching: Redis"
+    - AI Model and AI Pipeline
+    - pm2, Shell
+    - MATLAB/Octave, JupyterHub
 
 - name: Software Engineer
   id: blockhive
