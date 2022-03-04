@@ -3,7 +3,7 @@ layout: home
 title: 
 date: 2021-04-01
 ---
-### Hi, I'm Phuong Le-Van-Hoang (Mr.)👋 You can call me: Phương.
+### Hi, I'm Phuong Le-Van-Hoang (Mr.)👋 Call me: Phương.
 
 I am a kind of experienced full-stack Software Engineer with a demonstrated history of working in the IT industry.
 
@@ -25,7 +25,7 @@ Skill set:
 - Productivity: Bitbucket + Pipeline, Jira, Confluence
 - Cloud Services: AWS S3, EKS, SES, ECR, Firebase FCM/Auth
 - Containerization: Docker in-depth, Docker-in-Docker with GPU
-- Orchestration: Kubernetes (AWS)
+- Orchestration: Kubernetes (AWS), Dynamic k8s Workload (Service, Ingress)
 - Development tools: Android Studio, Eclipse JEE, VS Code, Maven, npm, git, Jira
 - Web container: Apache Tomcat
 - Environment: macOS, Ubuntu
