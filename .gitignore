@@ -9,3 +9,4 @@ Gemfile.lock
 *.sh 
 *.xml
 _site
+.jekyll-metadata
