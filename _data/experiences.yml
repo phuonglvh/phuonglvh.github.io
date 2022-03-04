@@ -16,15 +16,15 @@
     url: https://zmp.vn/home
   location: Ho Chi Minh City
   project: >
-    <a href="https://robodataplatform.com" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with post-processing services, various analysis tools and algorithms that can apply to measured data from sensors in Autonomous Industry
+    <a href="https://robodataplatform.com" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with Data Visualization, Data Analysis, Data Processing, Data Marketplace, AI Marketplace, Tools, and Algorithms.
   roles: 
     - Core member, main back-end one of a 5-member team
     - Backend lead (5 features)
     - DevOps
   contributions:
     - Regulate project’s structure, coding style, documents
-    - SupportScrumMastertoachieveAgility
-    - Lead features:designArch-FE-BE→create sub-tasks→implement→release
+    - SupportScrum Master to achieve Agility
+    - Lead features: design Arch - FE - BE → create sub-tasks → implement → release
     - Design architectures
     - Build, regulate base, core modules shared among services, and utilization.
     - "Build infrastructure: OAuth, mailing, scheduled jobs, queued jobs, event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query, and aggregation framework, .etc"
@@ -35,7 +35,7 @@
     - Review, refactor code
     - Worked at <b><a href="https://www.zmp.co.jp/en/">ZMP Japan</a></b>, in <b>Tokyo</b> from Dec. 2019 to Feb. 2020
   results:
-    - "Latest milestone: Lead successfully Docker Pipelines and self-developed Git Deployment Pipelines"
+    - "Latest milestone: Lead successfully <b>AI Marketplace</>, <b>Dynamic Kubernetes Workload</b>, <b>Docker Pipelines</b> and self-developed <b>Git Deployment Pipelines</b>"
     - |
       Released increments of 5 led
       <a href="javascript:void(0)" target="_blank">features</a>:
