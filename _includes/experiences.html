@@ -33,17 +33,19 @@
               </h5>
             </div>
             <div class="col-4 text-right">
-              <span
-                >{{ exp.startDate.month }} {{ exp.startDate.year }} - {{
-                exp.endDate.month }} {{ exp.endDate.year }}</span
-              >
+              {% if exp.duration %}
+              <span title="{{exp.duration}}">{{ exp.startDate.simple }} - {{ exp.endDate.simple }}</span>
+              {% else %}
+              <span>{{ exp.startDate.simple }} - {{ exp.endDate.simple }}</span>
+              {% endif %} 
             </div>
           </div>
           {% if exp.project %}
           <div>
             <b><em>Project:</em></b> {{exp.project}}
           </div>
-          {% endif %} {% if exp.roles %}
+          {% endif %} 
+          {% if exp.roles %}
           <div>
             <b><em>Roles:</em></b>
             <ul>

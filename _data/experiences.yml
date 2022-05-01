@@ -1,36 +1,58 @@
+- name: Senior Analyst, Engineer (Senior Back-End Engineer)
+  id: nab
+  description:
+  startDate:
+    year: 2022
+    month: April
+    day: 25
+    simple: April 25, 2022
+  endDate:
+    year: Now
+    month:
+    day:
+    simple: Now
+  # duration:
+  company:
+    name: NAB in collaboration with Positive Thinking Company in Vietnam
+    url: https://nab-vn.apac.positivethinking.tech/about-us.html
+  location: E. Town Central, Ho Chi Minh City
+  project:
+  roles: 
+  
 - name: Senior Software Engineer, Back-End Lead
   id: zmp
   description:
   startDate:
     year: 2019
-    month: Sep.
-    day:
-    simple: Sep. 2019
+    month: October
+    day: 1
+    simple: October 1, 2019
   endDate:
-    year: Now
-    month:
-    day:
-    simple: Now (2 years 7m)
+    year: 2022
+    month: April
+    day: 23
+    simple: April 23, 2022
+  duration: 2 years 7 months
   company:
     name: ZMP Vietnam Co., Ltd.
     url: https://zmp.vn/home
   location: Ho Chi Minh City
   project: >
-    <a href="https://robodataplatform.com" target="_blank">Robo Data Platform</a>, an SaaS, one of the key products of ZMP Inc. The platform provides users with Data Visualization, Data Analysis, Data Processing, Data Marketplace, AI Marketplace, Tools, and Algorithms.
+    Data Platform, an SaaS, one of the key products of ZMP Inc. The platform provides users with Data Visualization, Data Analysis, Data Processing, Data Marketplace, AI Marketplace, Tools, and Algorithms.
   roles: 
     - Core member, main back-end one of a 5-member team
     - Backend lead (5 features)
     - DevOps
   contributions:
     - Regulate project’s structure, coding style, documents
-    - SupportScrum Master to achieve Agility
-    - Lead features: design Arch - FE - BE → create sub-tasks → implement → release
+    - Support Scrum Master to achieve Agility
+    - 'Lead features: design Arch - FE - BE → create sub-tasks → implement → release'
     - Design architectures
     - Build, regulate base, core modules shared among services, and utilization.
     - "Build infrastructure: OAuth, mailing, scheduled jobs, queued jobs, event system, cache, db storage, file storage, auth, generic paging-sorting-filtering query, and aggregation framework, .etc"
     - Investigate new technologies
-    - Train&DeployAIModels,integrateFFT,Octave,Jupyterlab.
-    - ManageDevOps, Kubernetes, AWS resources.
+    - Train & Deploy AI Models, integrate FFT, Octave, Jupyterlab.
+    - Manage DevOps, Kubernetes, AWS resoursces.
     - Collaborate with Japan members to design, apply algorithms.
     - Review, refactor code
     - Worked at <b><a href="https://www.zmp.co.jp/en/">ZMP Japan</a></b>, in <b>Tokyo</b> from Dec. 2019 to Feb. 2020
@@ -86,13 +108,14 @@
   startDate:
     year: 2019
     month: Mar.
-    day:
-    simple: Mar. 2019
+    day: 1
+    simple: March 1, 2019
   endDate:
     year: 2019
     month: Sep.
-    day:
-    simple: Sep. 2019
+    day: 30
+    simple: September 30, 2019
+  duration: 7 months
   company:
     name: Blockhive Vietnam.,JSC
     url: https://blockhive.vn/en/
@@ -130,6 +153,7 @@
     month: Mar.
     day:
     simple: Mar. 2019
+  duration: 12 months
   company:
     name: Vuletech
     url: http://www.vuletech.com/
