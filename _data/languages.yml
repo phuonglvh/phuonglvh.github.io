@@ -1,17 +1,42 @@
-- name: General English
-  descriptions: Intermediate reading and speaking skills
-  expiry:
+
+- name: English CEFR C1
+  descriptions:
+  expiry: No
   course:
+    url: 
   issuer: 
-  offeredBy:
+    logoURL: /assets/img/languages/tracktest.jpeg
+    logoAlt: Logo
+  offeredBy: <a href="https://tracktest.eu/" target="_blank">TrackTest</a>
   instructor:
-  grade:
+  grade: C1/(A1, A2, B1, B2, C1, C2)
   startDate:
   endDate:
   issueDate:
-  expirationDate:
+    year: 2022
+    month: Apr.
+    day: 28
+  # expirationDate:
+  #   year:
+  #   month:
+  #   day:
   credential:
   tags:
+
+# - name: General English
+#   descriptions: Intermediate reading and speaking skills
+#   expiry:
+#   course:
+#   issuer: 
+#   offeredBy:
+#   instructor:
+#   grade:
+#   startDate:
+#   endDate:
+#   issueDate:
+#   expirationDate:
+#   credential:
+#   tags:
 
 - name: TOEIC Reading & Listening
   descriptions:
